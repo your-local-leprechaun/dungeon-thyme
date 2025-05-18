@@ -24,3 +24,4 @@ C:\Users\lukem\OneDrive\Desktop\Coding\MonoGame\dungeon-thyme\obj\Debug\net8.0\r
 C:\Users\lukem\OneDrive\Desktop\Coding\MonoGame\dungeon-thyme\obj\Debug\net8.0\dungeon-thyme.pdb
 C:\Users\lukem\OneDrive\Desktop\Coding\MonoGame\dungeon-thyme\obj\Debug\net8.0\dungeon-thyme.genruntimeconfig.cache
 C:\Users\lukem\OneDrive\Desktop\Coding\MonoGame\dungeon-thyme\obj\Debug\net8.0\ref\dungeon-thyme.dll
+C:\Users\lukem\OneDrive\Desktop\Coding\MonoGame\dungeon-thyme\bin\Debug\net8.0\Content\square.xnb

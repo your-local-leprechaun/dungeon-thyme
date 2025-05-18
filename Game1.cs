@@ -9,6 +9,9 @@ public class Game1 : Game
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
+    private Texture2D playerTexture;
+    private Vector2 playerPosition;
+
     public Game1()
     {
         _graphics = new GraphicsDeviceManager(this);
@@ -26,6 +29,8 @@ public class Game1 : Game
     protected override void LoadContent()
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
+        playerTexture = Content.Load<Texture2D>("square");
+        playerPosition = new Vector2(100, 100);
 
         // TODO: use this.Content to load your game content here
     }
@@ -36,13 +41,34 @@ public class Game1 : Game
             Exit();
 
         // TODO: Add your update logic here
+        KeyboardState state = Keyboard.GetState();
+        if (state.IsKeyDown(Keys.W))
+        {
+            playerPosition.Y -= 2;
+        }
+        if (state.IsKeyDown(Keys.S))
+        {
+            playerPosition.Y += 2;
+        }
+        if (state.IsKeyDown(Keys.A))
+        {
+            playerPosition.X -= 2;
+        }
+        if (state.IsKeyDown(Keys.D))
+        {
+            playerPosition.X += 2;
+        }
 
         base.Update(gameTime);
     }
 
     protected override void Draw(GameTime gameTime)
     {
-        GraphicsDevice.Clear(Color.Blue);
+        GraphicsDevice.Clear(Color.Black);
+
+        _spriteBatch.Begin();
+        _spriteBatch.Draw(playerTexture, playerPosition, Color.White);
+        _spriteBatch.End();
 
         // TODO: Add your drawing code here
 

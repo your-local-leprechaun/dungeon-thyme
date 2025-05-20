@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dungeon-thyme")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0139c755e87d48f62205f6ebeabbfdacec2871f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49a33c0acb37a49ca182b3135129097a4c461d40")]
 [assembly: System.Reflection.AssemblyProductAttribute("dungeon-thyme")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dungeon-thyme")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
